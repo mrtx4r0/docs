@@ -15,3 +15,6 @@ OSとユーザの間に立つIF。<br>
 * systemd の一部で動くネットワークサービス
 * 有線・無線インターフェイスの実管理（IP設定、ルート追加、DHCP クライアント動作等）を担当する
 * 設定ファイルは /run/systemd/network/*.network などに置かれる（Netplan が生成する）
+
+# 公式ドキュメント
+https://netplan.readthedocs.io/en/stable/
