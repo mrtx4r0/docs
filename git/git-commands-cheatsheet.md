@@ -9,6 +9,8 @@
 |操作|コマンド|備考|
 |---|---|---|
 |ブランチを作成する|git branch main|
+|ブランチ名を変更する|git branch -m <old> <new>|mはmoveのm
+|現在のブランチ名を強制的に変更|git branch -M <new>|git init後にgit branch -M mainをよく使う|
 |チェックアウトしているブランチの追跡ブランチを設定する|git branch -u origin/main|
 |チェックアウトしているブランチの追跡ブランチを設定する|git branch -u origin/feature||
 
